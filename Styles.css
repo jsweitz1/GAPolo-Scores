@@ -1,0 +1,291 @@
+﻿body, html {
+    margin:0;
+    padding:0;
+    max-width:100vw;
+    overflow-x:hidden;
+}
+
+
+
+/*MASTER PAGE*/
+
+form {
+    width: 100%;
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+header {
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.headerLogo {
+    width:20%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    min-width:190px;
+}
+
+.logoPic {
+    background-image: url("/Images/GHSWPA-Logo.png");
+    height:129px;
+    width:195px;
+}
+
+.headerTitle {
+    width: 40%;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+.headerTitle h1 {
+    color:#092042;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 2.5em;
+    letter-spacing:2px;
+    padding:0;
+    margin:0;
+}
+.headerTitle p {
+    color:#092042;
+    padding:0;
+    margin:0;
+    font-size:1.3em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+footer {
+    padding:10px;
+    background-color: #092042;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 125px;
+    width: 100%;
+    margin: 0;
+}
+.footerBox {
+    width:33%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    padding:5px;
+
+}
+
+.flexRow {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    width:50%
+}
+.flexRow i {
+    font-size:2em;
+}
+
+.footerBox p, .footerBox a {
+    text-align:center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.handwriting {
+    font-size: 1.0em;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+
+.footerPic {
+    background-image: url("Images/Owen-Face-Centered.png");
+    background-size: cover;
+    background-position: center;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+/*SCORES Page*/
+
+.contentContainer {
+    background-color: #14468F;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+    min-height: 80vh;
+}
+
+.submissionForm {
+    width: 80%;
+    margin: 10px 0px;
+    max-width:750px;
+    min-height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.submissionFormTitle h2, .submissionFormTitle p {
+    color: #092042;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.submissionFormTitle h2 {
+    font-family: 'Bowlby One SC', cursive;
+    color: #092042;
+    letter-spacing:1.5px;
+    font-size: 1.4em;
+}
+.submissionFormTitle p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1em;
+}
+.submissionFormContent, .submissionFormTitle, .submissionFormButtons {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.formRow {
+    background-color: #C0C0C0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.formRowCol {
+    flex-basis:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.teamName, .teamScore {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.formLabelStyle {
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-family: 'Bowlby One SC', cursive;
+    color: #092042;
+}
+
+.formTextboxStyle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #092042;
+    width: 90%;
+    padding: 2px 3px 2px 5px;
+    margin: 5px 2px;
+    height: 22px;
+    border: 1px solid black;
+    border-radius: 3px;
+    outline: none;
+    align-self:center;
+}
+.formTextboxStyle:focus {
+    border-color:#14468F;
+    box-shadow: 0 0 8px 0 #14468F;
+}
+
+.formDDLStyle {
+    font-family: 'Open Sans', sans-serif;
+    color: #092042;
+    width: 90%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.formDDLStyle:focus {
+    border-color:#14468F;
+    box-shadow: 0 0 8px 0 #14468F;
+}
+
+.formButtonStyle {
+    font-family: 'Bowlby One SC', cursive;
+    color: white;
+    background-color: #138145;
+    font-size: 1.1em;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.formButtonStyle:hover {
+    filter: brightness(104%);
+    outline:none;
+}
+.formButtonStyle:active {
+    filter: brightness(108%);
+    outline:none;
+}
+
+.validationSummaryStyle {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.8em;
+    color: #092042;
+    text-align:center;
+}
+
+
+@media only screen and (max-width: 650px), only screen and (max-device-width: 650px) {
+    .formRow {
+        flex-direction:column;
+    }
+    .formRowCol {
+        width:90%;
+    }
+
+    footer {
+        margin-right:-3px;
+    }
+
+
+}
