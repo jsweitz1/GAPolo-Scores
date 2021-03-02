@@ -21,14 +21,7 @@
                     <div class="formRowCol">
                         <asp:DropDownList ID="ddlLocation" runat="server" CssClass="formDDLStyle">
                             <asp:ListItem>Cherokee Aquatic Center</asp:ListItem>
-                            <asp:ListItem>Collins Hill Aquatic Center</asp:ListItem>
                             <asp:ListItem>Cumming Aquatic Center</asp:ListItem>
-                            <asp:ListItem>Dynamo</asp:ListItem>
-                            <asp:ListItem>Greater Atlanta Christian</asp:ListItem>
-                            <asp:ListItem>Mountain View</asp:ListItem>
-                            <asp:ListItem>Pace Academy</asp:ListItem>
-                            <asp:ListItem>Wesleyan School</asp:ListItem>
-                            <asp:ListItem>West Gwinnett</asp:ListItem>
                         </asp:DropDownList>
                     </div>
                 </div>
