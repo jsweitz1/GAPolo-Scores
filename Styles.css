@@ -115,6 +115,10 @@ footer {
     font-family: 'East Sea Dokdo', cursive;
 }
 
+.underline {
+    text-decoration:underline;
+}
+
 
 .footerPic {
     background-image: url("Images/Owen-Face-Centered.png");
