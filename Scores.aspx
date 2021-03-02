@@ -84,21 +84,20 @@
                             <asp:ListItem>9:00 AM</asp:ListItem>
                             <asp:ListItem>10:15 AM</asp:ListItem>
                             <asp:ListItem>11:30 AM</asp:ListItem>
-<asp:ListItem>12:00 PM</asp:ListItem>
+                            <asp:ListItem>12:00 PM</asp:ListItem>
                             <asp:ListItem>12:45 PM</asp:ListItem>
                             <asp:ListItem>1:00 PM</asp:ListItem>
                             <asp:ListItem>1:15 PM</asp:ListItem>
                             <asp:ListItem>2:00 PM</asp:ListItem>
                             <asp:ListItem>2:15 PM</asp:ListItem>
-<asp:ListItem>2:30 PM</asp:ListItem>
-                            <asp:ListItem></asp:ListItem>
+                            <asp:ListItem>2:30 PM</asp:ListItem>
                             <asp:ListItem>3:15 PM</asp:ListItem>
-<asp:ListItem>3:45 PM</asp:ListItem>
                             <asp:ListItem>3:30 PM</asp:ListItem>
+                            <asp:ListItem>3:45 PM</asp:ListItem>
                             <asp:ListItem>4:45 PM</asp:ListItem>
                             <asp:ListItem>5:00 PM</asp:ListItem>
-                            <asp:ListItem>4:30 PM5:45 PM</asp:ListItem>
-
+                            <asp:ListItem>4:30 PM</asp:ListItem>
+                            <asp:ListItem>5:45 PM</asp:ListItem>
                             <asp:ListItem>6:00 PM</asp:ListItem>
                             <asp:ListItem>6:15 PM</asp:ListItem>
                             <asp:ListItem>7:15 PM</asp:ListItem>
