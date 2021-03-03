@@ -94,9 +94,9 @@
                             <asp:ListItem>3:15 PM</asp:ListItem>
                             <asp:ListItem>3:30 PM</asp:ListItem>
                             <asp:ListItem>3:45 PM</asp:ListItem>
+                            <asp:ListItem>4:30 PM</asp:ListItem>
                             <asp:ListItem>4:45 PM</asp:ListItem>
                             <asp:ListItem>5:00 PM</asp:ListItem>
-                            <asp:ListItem>4:30 PM</asp:ListItem>
                             <asp:ListItem>5:45 PM</asp:ListItem>
                             <asp:ListItem>6:00 PM</asp:ListItem>
                             <asp:ListItem>6:15 PM</asp:ListItem>
