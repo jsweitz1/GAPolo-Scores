@@ -77,7 +77,7 @@
 
                 <div class="formRow">
                     <div class="formRowCol">
-                        <asp:Label ID="lblTime" runat="server" Text="Time" CssClass="formLabelStyle"></asp:Label>
+                        <asp:Label ID="lblTime" runat="server" Text="Game Time" CssClass="formLabelStyle"></asp:Label>
                     </div>
                     <div class="formRowCol">
                         <asp:DropDownList ID="ddlTime" runat="server" CssClass="formDDLStyle">
