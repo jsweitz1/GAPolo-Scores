@@ -27,6 +27,21 @@ Public Class Scores
         Dim submittedBy As String = tbSubmittedBy.Text
 
 
+        'logic for adding forefit and exhibition notes into email
+        If cbTeam1Forfeit.Checked Then
+            team1Score += " [F]"
+        End If
+        If cbTeam1Exhibition.Checked Then
+            team1Score += " [X]"
+        End If
+        If cbTeam2Forfeit.Checked Then
+            team2Score += " [F]"
+        End If
+        If cbTeam2Exhibition.Checked Then
+            team2Score += " [X]"
+        End If
+
+
         'Send email
 
         Dim Mail As New MailMessage
@@ -36,7 +51,7 @@ Public Class Scores
         Mail.From = New MailAddress("GHSWPA.Scores@gmail.com")
         SMTP.Credentials = New System.Net.NetworkCredential("GHSWPA.Scores@gmail.com", "Capstone2020!") '<-- Password Here
 
-        Mail.To.Add("webmaster@gapolo.com") 'I used ByVal here for address
+        Mail.To.Add("owen.sweitzer@gmail.com") 'Real Address: webmaster@gapolo.com
 
         Mail.Body = "Submitted by: " + submittedBy + " <br><br> --using GAPolo's Score Submission web app--"
         Mail.IsBodyHtml = True

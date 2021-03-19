@@ -86,6 +86,15 @@ Partial Public Class Scores
     Protected WithEvents ddlTime As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
+    '''lblTeam1Name control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblTeam1Name As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''tbTeam1Name control.
     '''</summary>
     '''<remarks>
@@ -122,6 +131,51 @@ Partial Public Class Scores
     Protected WithEvents RequiredTeam1Score As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
+    '''lblTeam1Forfeit control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblTeam1Forfeit As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''cbTeam1Forfeit control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents cbTeam1Forfeit As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
+    '''lblTeam1Exhibition control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblTeam1Exhibition As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''cbTeam1Exhibition control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents cbTeam1Exhibition As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
+    '''lblTeam2Name control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblTeam2Name As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''tbTeam2Name control.
     '''</summary>
     '''<remarks>
@@ -156,6 +210,42 @@ Partial Public Class Scores
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents RequiredTeam2Score As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''LblTeam2Forfeit control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents LblTeam2Forfeit As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''cbTeam2Forfeit control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents cbTeam2Forfeit As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
+    '''lblTeam2Exhibition control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblTeam2Exhibition As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''cbTeam2Exhibition control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents cbTeam2Exhibition As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
     '''lblSubmittedBy control.
