@@ -51,7 +51,7 @@ Public Class Scores
         Mail.From = New MailAddress("GHSWPA.Scores@gmail.com")
         SMTP.Credentials = New System.Net.NetworkCredential("GHSWPA.Scores@gmail.com", "Capstone2020!") '<-- Password Here
 
-        Mail.To.Add("webmaster@gapolo.com") 'Real Address: webmaster@gapolo.com
+        Mail.To.Add("webmaster@gapolo.com") 'Real Address: webmaster@gapolo.com, Test: owen.sweitzer@gmail.com
 
         Mail.Body = "Submitted by: " + submittedBy + " <br><br> --using GAPolo's Score Submission web app--"
         Mail.IsBodyHtml = True
