@@ -166,6 +166,12 @@
     <Content Include="App_Data\GAPoloScoresDB_log.ldf">
       <DependentUpon>GAPoloScoresDB.mdf</DependentUpon>
     </Content>
+    <Content Include="Icons\android-chrome-192x192.png" />
+    <Content Include="Icons\android-chrome-512x512.png" />
+    <Content Include="Icons\apple-touch-icon.png" />
+    <Content Include="Icons\favicon-16x16.png" />
+    <Content Include="Icons\favicon-32x32.png" />
+    <Content Include="Icons\favicon.ico" />
     <Content Include="Images\GHSWPA-Logo.png" />
     <Content Include="Images\Owen-Face-Centered.png" />
     <Content Include="Images\owenPic.jpg" />
@@ -234,6 +240,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Master1.Master" />
+    <Content Include="Icons\site.webmanifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
