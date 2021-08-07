@@ -22,6 +22,8 @@
                         <asp:DropDownList ID="ddlLocation" runat="server" CssClass="formDDLStyle">
                             <asp:ListItem>Cherokee Aquatic Center</asp:ListItem>
                             <asp:ListItem>Cumming Aquatic Center</asp:ListItem>
+                            <asp:ListItem>Dynamo Aquatic Center</asp:ListItem>
+                            <asp:ListItem>Pace Academy Aquatic Center</asp:ListItem>
                         </asp:DropDownList>
                     </div>
                 </div>
@@ -32,9 +34,9 @@
                     </div>
                     <div class="formRowCol">
                         <asp:DropDownList ID="ddlDateMonth" runat="server" CssClass="formDDLStyle">
-                            <asp:ListItem Value="Mar">March</asp:ListItem>
-                            <asp:ListItem Value="Apr">April</asp:ListItem>
-                            <asp:ListItem Value="May">May</asp:ListItem>
+                            <asp:ListItem Value="Mar">August</asp:ListItem>
+                            <asp:ListItem Value="Apr">September</asp:ListItem>
+                            <asp:ListItem Value="May">October</asp:ListItem>
                         </asp:DropDownList>
                         <asp:DropDownList ID="ddlDateDay" runat="server" CssClass="formDDLStyle">
                             <asp:ListItem>1</asp:ListItem>
@@ -82,26 +84,25 @@
                     <div class="formRowCol">
                         <asp:DropDownList ID="ddlTime" runat="server" CssClass="formDDLStyle">
                             <asp:ListItem>9:00 AM</asp:ListItem>
-                            <asp:ListItem>10:15 AM</asp:ListItem>
-                            <asp:ListItem>11:30 AM</asp:ListItem>
+                            <asp:ListItem>10:00 AM</asp:ListItem>
+                            <asp:ListItem>10:05 AM</asp:ListItem>
+                            <asp:ListItem>11:00 AM</asp:ListItem>
+                            <asp:ListItem>11:10 AM</asp:ListItem>
                             <asp:ListItem>12:00 PM</asp:ListItem>
-                            <asp:ListItem>12:45 PM</asp:ListItem>
+                            <asp:ListItem>12:15 PM</asp:ListItem>
                             <asp:ListItem>1:00 PM</asp:ListItem>
-                            <asp:ListItem>1:15 PM</asp:ListItem>
+                            <asp:ListItem>1:20 PM</asp:ListItem>
                             <asp:ListItem>2:00 PM</asp:ListItem>
-                            <asp:ListItem>2:15 PM</asp:ListItem>
-                            <asp:ListItem>2:30 PM</asp:ListItem>
-                            <asp:ListItem>3:15 PM</asp:ListItem>
+                            <asp:ListItem>2:25 PM</asp:ListItem>
+                            <asp:ListItem>3:00 PM</asp:ListItem>
                             <asp:ListItem>3:30 PM</asp:ListItem>
-                            <asp:ListItem>3:45 PM</asp:ListItem>
-                            <asp:ListItem>4:30 PM</asp:ListItem>
-                            <asp:ListItem>4:45 PM</asp:ListItem>
+                            <asp:ListItem>4:00 PM</asp:ListItem>
+                            <asp:ListItem>4:35 PM</asp:ListItem>
                             <asp:ListItem>5:00 PM</asp:ListItem>
-                            <asp:ListItem>5:45 PM</asp:ListItem>
+                            <asp:ListItem>5:30 PM</asp:ListItem>
                             <asp:ListItem>6:00 PM</asp:ListItem>
-                            <asp:ListItem>6:15 PM</asp:ListItem>
-                            <asp:ListItem>7:15 PM</asp:ListItem>
-
+                            <asp:ListItem>7:00 PM</asp:ListItem>
+                            
                         </asp:DropDownList>
                     </div>
                 </div>
