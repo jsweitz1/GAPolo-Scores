@@ -34,8 +34,8 @@
             </asp:ContentPlaceHolder>
         <footer>
             <div class="footerBox">
-                <a href="../Default.aspx">GHSWPA Home</a>
-                <a href="../Add.aspx">American Water Polo</a>
+                <a href="http://www.gapolo.com/">GHSWPA Home</a>
+                <a href="https://americanwaterpolo.org/">American Water Polo</a>
             </div>
             <div class="footerBox">
                 <div class="footerPic"></div>
