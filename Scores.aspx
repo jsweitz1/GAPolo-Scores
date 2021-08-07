@@ -34,9 +34,9 @@
                     </div>
                     <div class="formRowCol">
                         <asp:DropDownList ID="ddlDateMonth" runat="server" CssClass="formDDLStyle">
-                            <asp:ListItem Value="Mar">August</asp:ListItem>
-                            <asp:ListItem Value="Apr">September</asp:ListItem>
-                            <asp:ListItem Value="May">October</asp:ListItem>
+                            <asp:ListItem Value="Aug">August</asp:ListItem>
+                            <asp:ListItem Value="Sep">September</asp:ListItem>
+                            <asp:ListItem Value="Oct">October</asp:ListItem>
                         </asp:DropDownList>
                         <asp:DropDownList ID="ddlDateDay" runat="server" CssClass="formDDLStyle">
                             <asp:ListItem>1</asp:ListItem>
